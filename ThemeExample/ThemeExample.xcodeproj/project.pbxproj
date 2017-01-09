@@ -7,26 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFAFF7811E0B7CD900CE63D9 /* ThemeRegistryTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF7801E0B7CD900CE63D9 /* ThemeRegistryTable.swift */; };
-		DFAFF7831E0C062900CE63D9 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF7821E0C062900CE63D9 /* MasterTableViewCell.swift */; };
-		DFAFF7851E0C069D00CE63D9 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF7841E0C069D00CE63D9 /* MasterTableViewController.swift */; };
-		DFAFF7871E0C06E600CE63D9 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF7861E0C06E600CE63D9 /* NewsItem.swift */; };
-		DFAFF7891E0CCCFE00CE63D9 /* ThemeRouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF7881E0CCCFE00CE63D9 /* ThemeRouletteView.swift */; };
-		DFCACD231E09529300D81FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCACD221E09529300D81FC6 /* AppDelegate.swift */; };
-		DFCACD251E09529300D81FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCACD241E09529300D81FC6 /* ViewController.swift */; };
-		DFCACD281E09529300D81FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCACD261E09529300D81FC6 /* Main.storyboard */; };
-		DFCACD2A1E09529300D81FC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCACD291E09529300D81FC6 /* Assets.xcassets */; };
-		DFCACD2D1E09529300D81FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCACD2B1E09529300D81FC6 /* LaunchScreen.storyboard */; };
+		DF7B4B2E1E237E5900AE4D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B181E237E5900AE4D49 /* ViewController.swift */; };
+		DF7B4B2F1E237E5900AE4D49 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B191E237E5900AE4D49 /* Theme.swift */; };
+		DF7B4B301E237E5900AE4D49 /* ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B1A1E237E5900AE4D49 /* ThemeStyle.swift */; };
+		DF7B4B311E237E5900AE4D49 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B1B1E237E5900AE4D49 /* MenuTableViewController.swift */; };
+		DF7B4B321E237E5900AE4D49 /* ThemeRegistryTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B1C1E237E5900AE4D49 /* ThemeRegistryTable.swift */; };
+		DF7B4B331E237E5900AE4D49 /* UIView&Layer+ThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B1D1E237E5900AE4D49 /* UIView&Layer+ThemeExtension.swift */; };
+		DF7B4B341E237E5900AE4D49 /* ThemeConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF7B4B1E1E237E5900AE4D49 /* ThemeConfig.plist */; };
+		DF7B4B351E237E5900AE4D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B1F1E237E5900AE4D49 /* AppDelegate.swift */; };
+		DF7B4B361E237E5900AE4D49 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B201E237E5900AE4D49 /* MasterTableViewController.swift */; };
+		DF7B4B371E237E5900AE4D49 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B211E237E5900AE4D49 /* MenuTableViewCell.swift */; };
+		DF7B4B381E237E5900AE4D49 /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B221E237E5900AE4D49 /* MenuTransitionManager.swift */; };
+		DF7B4B391E237E5900AE4D49 /* ThemeRouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B231E237E5900AE4D49 /* ThemeRouletteView.swift */; };
+		DF7B4B3A1E237E5900AE4D49 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B241E237E5900AE4D49 /* NewsItem.swift */; };
+		DF7B4B3B1E237E5900AE4D49 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B251E237E5900AE4D49 /* MasterTableViewCell.swift */; };
+		DF7B4B3C1E237E5900AE4D49 /* ThemeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4B261E237E5900AE4D49 /* ThemeUtil.swift */; };
+		DF7B4B3D1E237E5900AE4D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7B4B271E237E5900AE4D49 /* Assets.xcassets */; };
+		DF7B4B451E237E7C00AE4D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7B4B411E237E7C00AE4D49 /* Main.storyboard */; };
+		DF7B4B461E237E7C00AE4D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7B4B431E237E7C00AE4D49 /* LaunchScreen.storyboard */; };
+		DF7B4B481E237E9900AE4D49 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF7B4B471E237E9900AE4D49 /* Info.plist */; };
 		DFCACD381E09529300D81FC6 /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCACD371E09529300D81FC6 /* ThemeTests.swift */; };
 		DFCACD431E09529300D81FC6 /* ThemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCACD421E09529300D81FC6 /* ThemeUITests.swift */; };
-		DFCACD511E0952DD00D81FC6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCACD501E0952DD00D81FC6 /* Theme.swift */; };
-		DFD6DF801E0F9CF50064A723 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6DF7F1E0F9CF50064A723 /* MenuTableViewController.swift */; };
-		DFD6DF821E0F9D090064A723 /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6DF811E0F9D090064A723 /* MenuTransitionManager.swift */; };
-		DFD6DF841E0F9D0F0064A723 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6DF831E0F9D0F0064A723 /* MenuTableViewCell.swift */; };
-		DFD6DF861E0FA8EE0064A723 /* ThemeConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFD6DF851E0FA8EE0064A723 /* ThemeConfig.plist */; };
-		DFF457D31E0A4B9100EE92E0 /* UIView&Layer+ThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF457D21E0A4B9100EE92E0 /* UIView&Layer+ThemeExtension.swift */; };
-		DFF457D51E0A4CAE00EE92E0 /* ThemeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF457D41E0A4CAE00EE92E0 /* ThemeUtil.swift */; };
-		DFF457D71E0A509900EE92E0 /* ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF457D61E0A509900EE92E0 /* ThemeStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,32 +48,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DFAFF7801E0B7CD900CE63D9 /* ThemeRegistryTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeRegistryTable.swift; sourceTree = "<group>"; };
-		DFAFF7821E0C062900CE63D9 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
-		DFAFF7841E0C069D00CE63D9 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
-		DFAFF7861E0C06E600CE63D9 /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
-		DFAFF7881E0CCCFE00CE63D9 /* ThemeRouletteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeRouletteView.swift; sourceTree = "<group>"; };
+		DF7B4B181E237E5900AE4D49 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ThemeExample/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B191E237E5900AE4D49 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = ThemeExample/Theme.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B1A1E237E5900AE4D49 /* ThemeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeStyle.swift; path = ThemeExample/ThemeStyle.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B1B1E237E5900AE4D49 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewController.swift; path = ThemeExample/MenuTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B1C1E237E5900AE4D49 /* ThemeRegistryTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeRegistryTable.swift; path = ThemeExample/ThemeRegistryTable.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B1D1E237E5900AE4D49 /* UIView&Layer+ThemeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView&Layer+ThemeExtension.swift"; path = "ThemeExample/UIView&Layer+ThemeExtension.swift"; sourceTree = SOURCE_ROOT; };
+		DF7B4B1E1E237E5900AE4D49 /* ThemeConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ThemeConfig.plist; path = ThemeExample/ThemeConfig.plist; sourceTree = SOURCE_ROOT; };
+		DF7B4B1F1E237E5900AE4D49 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ThemeExample/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B201E237E5900AE4D49 /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterTableViewController.swift; path = ThemeExample/MasterTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B211E237E5900AE4D49 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewCell.swift; path = ThemeExample/MenuTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B221E237E5900AE4D49 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTransitionManager.swift; path = ThemeExample/MenuTransitionManager.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B231E237E5900AE4D49 /* ThemeRouletteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeRouletteView.swift; path = ThemeExample/ThemeRouletteView.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B241E237E5900AE4D49 /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsItem.swift; path = ThemeExample/NewsItem.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B251E237E5900AE4D49 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterTableViewCell.swift; path = ThemeExample/MasterTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B261E237E5900AE4D49 /* ThemeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThemeUtil.swift; path = ThemeExample/ThemeUtil.swift; sourceTree = SOURCE_ROOT; };
+		DF7B4B271E237E5900AE4D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ThemeExample/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		DF7B4B421E237E7C00AE4D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ThemeExample/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		DF7B4B441E237E7C00AE4D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ThemeExample/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		DF7B4B471E237E9900AE4D49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ThemeExample/Info.plist; sourceTree = SOURCE_ROOT; };
 		DFCACD1F1E09529300D81FC6 /* ThemeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFCACD221E09529300D81FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFCACD241E09529300D81FC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DFCACD271E09529300D81FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DFCACD291E09529300D81FC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFCACD2C1E09529300D81FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DFCACD2E1E09529300D81FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFCACD331E09529300D81FC6 /* ThemeExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCACD371E09529300D81FC6 /* ThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTests.swift; sourceTree = "<group>"; };
 		DFCACD391E09529300D81FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFCACD3E1E09529300D81FC6 /* ThemeExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCACD421E09529300D81FC6 /* ThemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeUITests.swift; sourceTree = "<group>"; };
 		DFCACD441E09529300D81FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFCACD501E0952DD00D81FC6 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		DFD6DF7F1E0F9CF50064A723 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
-		DFD6DF811E0F9D090064A723 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
-		DFD6DF831E0F9D0F0064A723 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
-		DFD6DF851E0FA8EE0064A723 /* ThemeConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ThemeConfig.plist; sourceTree = "<group>"; };
-		DFF457D21E0A4B9100EE92E0 /* UIView&Layer+ThemeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView&Layer+ThemeExtension.swift"; sourceTree = "<group>"; };
-		DFF457D41E0A4CAE00EE92E0 /* ThemeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeUtil.swift; sourceTree = "<group>"; };
-		DFF457D61E0A509900EE92E0 /* ThemeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,20 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF7B4B131E23263900AE4D49 /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				DFCACD501E0952DD00D81FC6 /* Theme.swift */,
-				DFF457D21E0A4B9100EE92E0 /* UIView&Layer+ThemeExtension.swift */,
-				DFF457D41E0A4CAE00EE92E0 /* ThemeUtil.swift */,
-				DFF457D61E0A509900EE92E0 /* ThemeStyle.swift */,
-				DFAFF7801E0B7CD900CE63D9 /* ThemeRegistryTable.swift */,
-				DFAFF7881E0CCCFE00CE63D9 /* ThemeRouletteView.swift */,
-				DFD6DF851E0FA8EE0064A723 /* ThemeConfig.plist */,
-			);
-			name = Theme;
-			sourceTree = "<group>";
-		};
 		DFCACD161E09529300D81FC6 = {
 			isa = PBXGroup;
 			children = (
@@ -137,19 +124,25 @@
 		DFCACD211E09529300D81FC6 /* ThemeExample */ = {
 			isa = PBXGroup;
 			children = (
-				DF7B4B131E23263900AE4D49 /* Theme */,
-				DFD6DF831E0F9D0F0064A723 /* MenuTableViewCell.swift */,
-				DFD6DF811E0F9D090064A723 /* MenuTransitionManager.swift */,
-				DFCACD221E09529300D81FC6 /* AppDelegate.swift */,
-				DFCACD241E09529300D81FC6 /* ViewController.swift */,
-				DFAFF7821E0C062900CE63D9 /* MasterTableViewCell.swift */,
-				DFAFF7841E0C069D00CE63D9 /* MasterTableViewController.swift */,
-				DFAFF7861E0C06E600CE63D9 /* NewsItem.swift */,
-				DFD6DF7F1E0F9CF50064A723 /* MenuTableViewController.swift */,
-				DFCACD261E09529300D81FC6 /* Main.storyboard */,
-				DFCACD291E09529300D81FC6 /* Assets.xcassets */,
-				DFCACD2B1E09529300D81FC6 /* LaunchScreen.storyboard */,
-				DFCACD2E1E09529300D81FC6 /* Info.plist */,
+				DF7B4B471E237E9900AE4D49 /* Info.plist */,
+				DF7B4B411E237E7C00AE4D49 /* Main.storyboard */,
+				DF7B4B431E237E7C00AE4D49 /* LaunchScreen.storyboard */,
+				DF7B4B181E237E5900AE4D49 /* ViewController.swift */,
+				DF7B4B191E237E5900AE4D49 /* Theme.swift */,
+				DF7B4B1A1E237E5900AE4D49 /* ThemeStyle.swift */,
+				DF7B4B1B1E237E5900AE4D49 /* MenuTableViewController.swift */,
+				DF7B4B1C1E237E5900AE4D49 /* ThemeRegistryTable.swift */,
+				DF7B4B1D1E237E5900AE4D49 /* UIView&Layer+ThemeExtension.swift */,
+				DF7B4B1E1E237E5900AE4D49 /* ThemeConfig.plist */,
+				DF7B4B1F1E237E5900AE4D49 /* AppDelegate.swift */,
+				DF7B4B201E237E5900AE4D49 /* MasterTableViewController.swift */,
+				DF7B4B211E237E5900AE4D49 /* MenuTableViewCell.swift */,
+				DF7B4B221E237E5900AE4D49 /* MenuTransitionManager.swift */,
+				DF7B4B231E237E5900AE4D49 /* ThemeRouletteView.swift */,
+				DF7B4B241E237E5900AE4D49 /* NewsItem.swift */,
+				DF7B4B251E237E5900AE4D49 /* MasterTableViewCell.swift */,
+				DF7B4B261E237E5900AE4D49 /* ThemeUtil.swift */,
+				DF7B4B271E237E5900AE4D49 /* Assets.xcassets */,
 			);
 			name = ThemeExample;
 			path = Theme;
@@ -242,6 +235,7 @@
 					DFCACD1E1E09529300D81FC6 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 5F86ZD4GLF;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					DFCACD321E09529300D81FC6 = {
@@ -283,10 +277,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFCACD2D1E09529300D81FC6 /* LaunchScreen.storyboard in Resources */,
-				DFCACD2A1E09529300D81FC6 /* Assets.xcassets in Resources */,
-				DFD6DF861E0FA8EE0064A723 /* ThemeConfig.plist in Resources */,
-				DFCACD281E09529300D81FC6 /* Main.storyboard in Resources */,
+				DF7B4B341E237E5900AE4D49 /* ThemeConfig.plist in Resources */,
+				DF7B4B3D1E237E5900AE4D49 /* Assets.xcassets in Resources */,
+				DF7B4B451E237E7C00AE4D49 /* Main.storyboard in Resources */,
+				DF7B4B481E237E9900AE4D49 /* Info.plist in Resources */,
+				DF7B4B461E237E7C00AE4D49 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +306,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFCACD511E0952DD00D81FC6 /* Theme.swift in Sources */,
-				DFAFF7871E0C06E600CE63D9 /* NewsItem.swift in Sources */,
-				DFD6DF841E0F9D0F0064A723 /* MenuTableViewCell.swift in Sources */,
-				DFF457D51E0A4CAE00EE92E0 /* ThemeUtil.swift in Sources */,
-				DFCACD251E09529300D81FC6 /* ViewController.swift in Sources */,
-				DFAFF7831E0C062900CE63D9 /* MasterTableViewCell.swift in Sources */,
-				DFAFF7851E0C069D00CE63D9 /* MasterTableViewController.swift in Sources */,
-				DFF457D71E0A509900EE92E0 /* ThemeStyle.swift in Sources */,
-				DFF457D31E0A4B9100EE92E0 /* UIView&Layer+ThemeExtension.swift in Sources */,
-				DFD6DF801E0F9CF50064A723 /* MenuTableViewController.swift in Sources */,
-				DFD6DF821E0F9D090064A723 /* MenuTransitionManager.swift in Sources */,
-				DFAFF7811E0B7CD900CE63D9 /* ThemeRegistryTable.swift in Sources */,
-				DFCACD231E09529300D81FC6 /* AppDelegate.swift in Sources */,
-				DFAFF7891E0CCCFE00CE63D9 /* ThemeRouletteView.swift in Sources */,
+				DF7B4B311E237E5900AE4D49 /* MenuTableViewController.swift in Sources */,
+				DF7B4B3A1E237E5900AE4D49 /* NewsItem.swift in Sources */,
+				DF7B4B2E1E237E5900AE4D49 /* ViewController.swift in Sources */,
+				DF7B4B3B1E237E5900AE4D49 /* MasterTableViewCell.swift in Sources */,
+				DF7B4B301E237E5900AE4D49 /* ThemeStyle.swift in Sources */,
+				DF7B4B331E237E5900AE4D49 /* UIView&Layer+ThemeExtension.swift in Sources */,
+				DF7B4B351E237E5900AE4D49 /* AppDelegate.swift in Sources */,
+				DF7B4B391E237E5900AE4D49 /* ThemeRouletteView.swift in Sources */,
+				DF7B4B371E237E5900AE4D49 /* MenuTableViewCell.swift in Sources */,
+				DF7B4B361E237E5900AE4D49 /* MasterTableViewController.swift in Sources */,
+				DF7B4B381E237E5900AE4D49 /* MenuTransitionManager.swift in Sources */,
+				DF7B4B3C1E237E5900AE4D49 /* ThemeUtil.swift in Sources */,
+				DF7B4B2F1E237E5900AE4D49 /* Theme.swift in Sources */,
+				DF7B4B321E237E5900AE4D49 /* ThemeRegistryTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,18 +355,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DFCACD261E09529300D81FC6 /* Main.storyboard */ = {
+		DF7B4B411E237E7C00AE4D49 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DFCACD271E09529300D81FC6 /* Base */,
+				DF7B4B421E237E7C00AE4D49 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DFCACD2B1E09529300D81FC6 /* LaunchScreen.storyboard */ = {
+		DF7B4B431E237E7C00AE4D49 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DFCACD2C1E09529300D81FC6 /* Base */,
+				DF7B4B441E237E7C00AE4D49 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -474,11 +469,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5F86ZD4GLF;
-				INFOPLIST_FILE = Theme/Info.plist;
+				INFOPLIST_FILE = ThemeExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Boolan.Theme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -487,8 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5F86ZD4GLF;
-				INFOPLIST_FILE = Theme/Info.plist;
+				INFOPLIST_FILE = ThemeExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Boolan.Theme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
