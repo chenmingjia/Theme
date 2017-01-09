@@ -1,6 +1,6 @@
 ## Theme
 
-![Foil.png](https://github.com/chenmingjia/Theme/blob/master/Foil.png)
+![Foil.png](https://raw.githubusercontent.com/chenmingjia/Theme/master/Foil.png)
 
 ## Usage
 
