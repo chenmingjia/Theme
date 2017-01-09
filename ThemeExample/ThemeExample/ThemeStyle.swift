@@ -8,7 +8,7 @@
 import UIKit
 import Foundation
 
-struct ThemeDesign {
+class ThemeDesign {
     var name: String
     var primaryColor: UIColor
     var successColor: UIColor

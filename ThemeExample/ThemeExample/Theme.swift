@@ -93,16 +93,28 @@ class Theme {
     
     //设置自定义类型风格
     static func setCustomStyle(style: ThemeDesign) {
-        var dic = ThemeDesign.customStyles
-        guard !dic.keys.contains(style.name) else{
+        guard !styles.keys.contains(style.name) else{
            return
         }
-        dic[style.name] = style
+        styles[style.name] = style
     }
     
     //切换自定义类型风格
     static func switchCustomStyle(name: String) {
-       
+        var dic = styles
+        guard let design = styles[name] else {
+            return
+        }
+        currentTheme = design
+        for watcher in watchers {
+            let watcher = watcher as AnyObject
+            let instanceKey = "\(ThemeUtil.addrOfP(watcher))"
+            if let props = instancePool[instanceKey] {
+                for (propName,propValue) in props {
+                    (watcher as AnyObject).setValue(propValue.toUIProperty(), forKey: propName)
+                }
+            }
+        }
     }
     
     

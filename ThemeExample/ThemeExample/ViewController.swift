@@ -33,7 +33,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func `do`(_ sender: Any) {
-        Theme.switchStyle(.soft)
+//        Theme.switchStyle(.soft)
+        let s = CustomStyle()
+        Theme.setCustomStyle(style: s)
+        Theme.switchCustomStyle(name: s.name)
         
     }
     override func didReceiveMemoryWarning() {
